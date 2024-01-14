@@ -42,8 +42,7 @@ Let's use the example of the Philly Mummers Parade and explore how advanced sele
 }
 
 /* Grouping Selectors for Common Styles */
-.mummer,
-.division-title {
+.mummer, .division-title {
   margin: 10px;
   padding: 8px;
   border: 1px solid #ccc;

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Philly Eagles Super Bowl Appearances</title>
+  <!-- <link rel="stylesheet" href="styles.css" /> -->
+  <style>
+    /* Style section headings for Super Bowl appearances */
+    h2 {
+      color: #004080;
+      /* Dark blue */
+    }
+
+    /* Style appearance details for each Super Bowl */
+    .appearance-details>li {
+      margin: 8px;
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+
+    /* Style Super Bowl appearances using combinators */
+    #super-bowl-15+#super-bowl-39 {
+      background-color: #ffcc99;
+      /* Light orange background for consecutive appearances */
+    }
+
+    #super-bowl-39~#super-bowl-52 {
+      background-color: #b3ffb3;
+      /* Light green background for non-consecutive appearances */
+    }
+  </style>
+</head>
+
+<body>
+  <section id="super-bowl-15">
+    <h2>Super Bowl XV (1981)</h2>
+    <ul class="appearance-details">
+      <li>Opponent: Oakland Raiders</li>
+      <li>Result: Loss
+        <ul>
+          <li>one</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="super-bowl-39">
+    <h2>Super Bowl XXXIX (2005)</h2>
+    <ul class="appearance-details">
+      <li>Opponent: New England Patriots</li>
+      <li>Result: Loss</li>
+    </ul>
+  </section>
+
+  <section id="super-bowl-52">
+    <h2>Super Bowl LII (2018)</h2>
+    <ul class="appearance-details">
+      <li>Opponent: New England Patriots</li>
+      <li>Result: Win</li>
+    </ul>
+  </section>
+</body>
+
+</html>
