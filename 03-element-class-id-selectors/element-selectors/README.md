@@ -29,7 +29,7 @@ Let's say you have an HTML file with a list of M. Night Shyamalan films, and you
       <li>Glass</li>
     </ul>
   </body>
-</html>
+  </html>
 ```
 
 **styles.css:**
